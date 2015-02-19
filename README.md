@@ -1,10 +1,10 @@
 OpenShift ElasticSearch Cartridge
 =================================
-Downloadable ElasticSearch cartridge for OpenShift.
+Downloadable ElasticSearch cartridge for OpenShift.  This was forked from https://github.com/ncdc/openshift-elasticsearch-cartridge to update to ElasticSearch 1.4.4.
 
 To create your scalable ElasticSearch app, run:
 
-    rhc app create <your app name> http://cartreflect-claytondev.rhcloud.com/github/ncdc/openshift-elasticsearch-cartridge -s
+    rhc app create <your app name> http://cartreflect-claytondev.rhcloud.com/github/arpieb/openshift-elasticsearch-cartridge -s
 
 **NOTE:** your app currently must be a scalable app or this cartridge will not run.
 
